@@ -1,0 +1,15 @@
+James Pendergast Net ID: jcp327
+Josue Garcia Net ID: jg2287
+12/12/19
+
+Additional Features
+
+New Wave - By creating a new wave object in the invaders class when a wave is defeated (rather than ending the game),
+we were able to add new waves of aliens. We increased the speed of each new wave by making a speed attribute for the alien in wave,
+and called its setter (which increased the speed) each time a new wave was created in app.py. This also required a waveswonspeed attribute
+to be added to Invaders so that something could be incremented and used for the setter.
+
+Sounds - By assigning attributes to objects of the sound class with audio files, we were able to incorporate sounds into the project.
+We used the play() method whenever the required action occurred that would trigger the sound (alien shooting, ship shooting, ship hit).
+We also made a mute/unmute key with 'm' and 'u' by creating a variable that determined whether the play() method could be called (if it was true
+it could be called, but the m key made it false).
